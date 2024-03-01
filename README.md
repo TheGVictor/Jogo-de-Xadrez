@@ -1,4 +1,4 @@
-<h1 style="color:#007ACC">Java Chess</h1>
+<h1>Java Chess</h1>
 
 PT-BR:
 <h2>Descrição</h2>
