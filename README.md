@@ -1,5 +1,6 @@
-<h1>Java Chess</h1>
+<h1 style="color:#007ACC;">Java Chess</h1>
 
+PT-BR:
 <h2>Descrição</h2>
 Este projeto é um jogo de xadrez desenvolvido em Java, criado como parte de um aprendizado prático de conceitos avançados de programação orientada a objetos (POO). O jogo é projetado para ser executado no console, proporcionando uma experiência interativa de xadrez entre dois jogadores ou contra o computador.
 
