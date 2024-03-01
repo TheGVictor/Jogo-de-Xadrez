@@ -2,7 +2,7 @@
 PT-BR:
 Este projeto é um jogo de xadrez desenvolvido em Java, criado como parte de um aprendizado prático de conceitos avançados de programação orientada a objetos (POO). O jogo é projetado para ser executado no console, proporcionando uma experiência interativa de xadrez entre dois jogadores ou contra o computador.
 
-<h2Funcionalidades Principais</h2>
+<h2>Funcionalidades Principais</h2>
 <b>Jogo de Xadrez no Console:</b> Interface de console interativa para jogar xadrez.
 <b>Polimorfismo:</b> Utilização de polimorfismo em classes de peças de xadrez.
 <b>Programação Defensiva:</b> Implementação de verificações defensivas para entradas do usuário.
