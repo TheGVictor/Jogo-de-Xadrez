@@ -2,6 +2,9 @@
 PT-BR:
 Este projeto é um jogo de xadrez desenvolvido em Java, criado como parte de um aprendizado prático de conceitos avançados de programação orientada a objetos (POO). O jogo é projetado para ser executado no console, proporcionando uma experiência interativa de xadrez entre dois jogadores ou contra o computador.
 
+EN:
+This project is a simple chess game developed in Java, created as part of practical learning of advanced object-oriented programming (OOP) concepts. The game is designed to run in the console, providing an interactive chess experience between two players or against the computer.
+
 <h2>Funcionalidades Principais</h2>
 <b>Jogo de Xadrez no Console:</b> Interface de console interativa para jogar xadrez.
 <b>Polimorfismo:</b> Utilização de polimorfismo em classes de peças de xadrez.
@@ -11,9 +14,6 @@ Este projeto é um jogo de xadrez desenvolvido em Java, criado como parte de um 
 <b>Encapsulamento:</b> Uso de encapsulamento para proteger dados das peças e do tabuleiro.
 <b>Sobrecarga:</b> Sobrecarga de métodos para operações específicas de movimentos de peças.
 Fique à vontade para clonar e explorar o código-fonte deste projeto para entender melhor a implementação e os conceitos abordados. Contribuições e sugestões são sempre bem-vindas!
-
-EN:
-This project is a simple chess game developed in Java, created as part of practical learning of advanced object-oriented programming (OOP) concepts. The game is designed to run in the console, providing an interactive chess experience between two players or against the computer.
 
 <h2>Key Features</h2>
 <b>Console Chess Game:</b> Interactive console interface for playing chess.
