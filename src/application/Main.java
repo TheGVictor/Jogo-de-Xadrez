@@ -38,7 +38,7 @@ public class Main {
 			
 			ChessPiece capturedPiece = chessmatch.performChessMove(source, target);
 			
-			if(captured != null) {
+			if(capturedPiece != null) {
 				captured.add(capturedPiece);
 			}
 			}
