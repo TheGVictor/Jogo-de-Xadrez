@@ -20,37 +20,38 @@ public class Main {
 		ChessMatch chessmatch = new ChessMatch();
 		List<ChessPiece> captured = new ArrayList<>();
 
-		while (true) {
+		while (!chessmatch.getCheckMate()) {
 			try {
-			UI.clearScreen();
-			UI.printMatch(chessmatch, captured);
-			System.out.println();
-			System.out.print("Source: ");
-			ChessPosition source = UI.readChessPosition(sc); 
-			
-			boolean[][] possibleMoves = chessmatch.possibleMoves(source);
-			UI.clearScreen();
-			UI.printBoard(chessmatch.getPieces(), possibleMoves);
-			
-			System.out.println();
-			System.out.print("Target: ");
-			ChessPosition target = UI.readChessPosition(sc);
-			
-			ChessPiece capturedPiece = chessmatch.performChessMove(source, target);
-			
-			if(capturedPiece != null) {
-				captured.add(capturedPiece);
-			}
-			}
-			catch(ChessException e){
+				UI.clearScreen();
+				UI.printMatch(chessmatch, captured);
+				System.out.println();
+				System.out.print("Source: ");
+				ChessPosition source = UI.readChessPosition(sc);
+
+				boolean[][] possibleMoves = chessmatch.possibleMoves(source);
+				UI.clearScreen();
+				UI.printBoard(chessmatch.getPieces(), possibleMoves);
+
+				System.out.println();
+				System.out.print("Target: ");
+				ChessPosition target = UI.readChessPosition(sc);
+
+				ChessPiece capturedPiece = chessmatch.performChessMove(source, target);
+
+				if (capturedPiece != null) {
+					captured.add(capturedPiece);
+				}
+			} catch (ChessException e) {
 				System.out.print(e.getMessage());
 				sc.nextLine();
-			}
-			catch(InputMismatchException e) {
+			} catch (InputMismatchException e) {
 				System.out.println(e.getMessage());
 				sc.nextLine();
 			}
 		}
+
+		UI.clearScreen();
+		UI.printMatch(chessmatch, captured);
 
 	}
 
