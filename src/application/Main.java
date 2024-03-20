@@ -48,6 +48,13 @@ public class Main {
 				System.out.println(e.getMessage());
 				sc.nextLine();
 			}
+
+			if (chessmatch.getPromoted() != null) {
+				System.out.println("Enter piece for promotion (B/N/R/Q)");
+				String type = sc.nextLine();
+				chessmatch.replacePromotedPiece(type);
+			}
+
 		}
 
 		UI.clearScreen();
